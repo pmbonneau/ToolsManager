@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsManagerLib", "ToolsManagerLib\ToolsManagerLib.csproj", "{206D50AD-8AEF-4905-8234-C2FF3D346439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsManagerUI", "ToolsManagerUI\ToolsManagerUI.csproj", "{1BB54967-542F-45F6-8C60-2C7777764546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206D50AD-8AEF-4905-8234-C2FF3D346439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206D50AD-8AEF-4905-8234-C2FF3D346439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206D50AD-8AEF-4905-8234-C2FF3D346439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206D50AD-8AEF-4905-8234-C2FF3D346439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB54967-542F-45F6-8C60-2C7777764546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB54967-542F-45F6-8C60-2C7777764546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB54967-542F-45F6-8C60-2C7777764546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB54967-542F-45F6-8C60-2C7777764546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
