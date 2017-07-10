@@ -11,10 +11,12 @@ namespace ToolsManagerLib
     {
         public void DecryptFirmwareImage(string InputImagePath, string OutputImagePath, string DecryptionIV, string DecryptionKey)
         {
+            Process DecryptFirmwareImage = new Process();
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.FileName = "xpwntool.exe";
             startInfo.Arguments = InputImagePath + " " + OutputImagePath + " -iv " + DecryptionIV + " -k " + DecryptionKey + " -decrypt";
-            Process.Start(startInfo);
+            DecryptFirmwareImage = Process.Start(startInfo);
+            DecryptFirmwareImage.WaitForExit();
         }
     }
 
@@ -22,10 +24,12 @@ namespace ToolsManagerLib
     {
         public void EraseRestore(string PathIPSW)
         {
+            Process EraseRestore = new Process();
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.FileName = "idevicerestore.exe";
             startInfo.Arguments = "-e " + PathIPSW;
-            Process.Start(startInfo);
+            EraseRestore = Process.Start(startInfo);
+            EraseRestore.WaitForExit();
         }
     }
 
